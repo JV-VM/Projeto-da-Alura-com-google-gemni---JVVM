@@ -1,0 +1,96 @@
+/*importando a fonte underwood 1913*/
+@font-face {
+    font-family: "Underwood 1913";
+    src: url(underwood1913/Underwood_Etendu_1913.TTF), format("truetype");
+}
+/*importando a fonte underwood champion */
+@font-face {
+    font-family: "Underwood Champion";
+    src: url(underwood_champion/uwch.ttf), format("truetype");
+}
+
+/*Corpo*/
+body {
+    font-family: "Underwood Champion", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/*Cabeçalho*/
+h1{
+    color: darkred;
+    font-size: 3rem;
+    font-family: "Underwood 1913", sans-serif;
+    text-align: center;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section input {
+    width: 60rem;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-family: "Underwood Champion";
+    color: white;
+    background-color: black;
+    font-size: 1.5rem;
+    box-sizing: border-box;
+}
+section button {
+    border: none;
+    border-radius: 1.5rem;
+    padding: 0.8rem 1rem;
+    margin-bottom: 1rem;
+    font-family: "Underwood Champion";
+    color: white;
+    background-color: black;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+}
+.titulo-comum{
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.texto-comum {
+    font-size: 1.5rem;
+    text-align: center;
+}
+.regiao-resultado{
+    width: 60rem;
+    height: 26vh;
+    overflow-y: auto;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 0.6rem;
+    background-color: black;
+    color: white;
+    
+}
+.frase-promessa{
+    color: darkred;
+    font-size: 2rem;
+    font-family: "Underwood 1913", sans-serif;
+    text-align: center;
+}
+
+/*rodapé*/
+footer {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: darkred;
+    position:relative;
+    bottom: 0;
+    text-align: center;
+}
