@@ -2,7 +2,7 @@ function pesquisar(){
     let section = document.getElementById("resultado-da-pesquisa");
     let campoPesquisa = document.getElementById("campo-pesquisa").value;
     
-    let resultados = "";
+    let resultados = "" ;
     for(let pagina of paginas){
         if(pagina.titulo.includes(campoPesquisa)){
             resultados += `
@@ -18,6 +18,7 @@ function pesquisar(){
             `
         }
     }
+
     section.innerHTML = resultados;
 
 }
